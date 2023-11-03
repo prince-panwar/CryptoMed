@@ -8,6 +8,10 @@ export default {
         title: 'User Name',
         type: 'string',
       },
+      {name:'address',
+       title:'Delivery Address',
+       type:'string',
+      },
       {
         name: 'walletAddress',
         title: 'Wallet Address',

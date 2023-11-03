@@ -1,3 +1,4 @@
 import user from './user'
 import market from './marketplace'
-export const schemaTypes = [user, market]
+import product from './product'
+export const schemaTypes = [user, market ,product]

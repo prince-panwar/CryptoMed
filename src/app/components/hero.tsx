@@ -25,10 +25,10 @@ const Hero = () => {
         <div className={style.contentWrapper}>
           <div className={style.copyContainer}>
             <div className={style.title}>
-             Buys Medicines
+             Buy  Medicines
             </div>
             <div className={style.description}>
-              Using CryptoCurrency
+              Using CryptoCurrency like ethereum
             </div>
             <div className={style.ctaContainer}>
               <button className={style.accentedButton}>Buy</button>
