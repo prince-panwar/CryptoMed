@@ -32,6 +32,8 @@ export type { Strings } from "./@openzeppelin/contracts/utils/Strings";
 export { Strings__factory } from "./factories/@openzeppelin/contracts/utils/Strings__factory";
 export type { PremiumContract } from "./contracts/Auth.sol/PremiumContract";
 export { PremiumContract__factory } from "./factories/contracts/Auth.sol/PremiumContract__factory";
+export type { Buy } from "./contracts/Buy";
+export { Buy__factory } from "./factories/contracts/Buy__factory";
 export type { MyNFT } from "./contracts/minter.sol/MyNFT";
 export { MyNFT__factory } from "./factories/contracts/minter.sol/MyNFT__factory";
 export type { MyNFTFactory } from "./contracts/minterFactory.sol/MyNFTFactory";

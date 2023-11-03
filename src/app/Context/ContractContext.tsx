@@ -37,7 +37,7 @@ export const ContractProvider: React.FC<ContractProviderProps> = ({ children }) 
   const [provider, setProvider] = useState<BrowserProvider | undefined>();
   const abi = ContractAbi.abi;
   const factoryAbi = factoryContractAbi.abi;
-  const FACTORY_CONTRACT_ADDRESS = '0x009c4D687550f46e3Ab0FEd2551401a0f36C27Ec';
+  const FACTORY_CONTRACT_ADDRESS = '0x234b1E8320d9Ebc68De42018e9003A85B8608914';
   const contractAddress = '0x3Da096fA7EB2BF003b8803d381fA769e3baF393b';
   const router = useRouter();
 

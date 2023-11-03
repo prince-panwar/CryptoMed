@@ -7,3 +7,4 @@ import type * as minterSol from "./minter.sol";
 export type { minterSol };
 import type * as minterFactorySol from "./minterFactory.sol";
 export type { minterFactorySol };
+export type { Buy } from "./Buy";
