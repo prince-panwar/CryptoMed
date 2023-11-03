@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import openseaLogo from '../../../public/opensea.png'
+import logo from "../../../public/Crypto-med.png"
 import { AiOutlineSearch } from 'react-icons/ai'
 import { CgProfile } from 'react-icons/cg'
 import { MdOutlineAccountBalanceWallet } from 'react-icons/md'
@@ -23,8 +24,8 @@ const Header = () => {
     <div className={style.wrapper}>
       <Link href="/">
         <div className={style.logoContainer}>
-          <Image  alt='error' src={openseaLogo} height={40} width={40} />
-          <div className={style.logoText}>Opensea</div>
+          <Image  alt='error' src={logo} height={40} width={40} />
+          <div className={style.logoText}>CryptoMeds</div>
         </div>
       </Link>
       <div className={style.searchBar}>
@@ -37,20 +38,14 @@ const Header = () => {
         />
       </div>
       <div className={style.headerItems}>
-        <Link href="/collections/0x472E3f14B7cE81e4ff732360F2BBBF7198eD93c7">
-          <div className={style.headerItem}> Collections </div>
+        <Link href="Meds">
+          <div className={style.headerItem}> Meds </div>
         </Link>
-        <div className={style.headerItem}> Stats </div>
-        <div className={style.headerItem}> Resources </div>
-        <Link href="/create">
-        <div className={style.headerItem}> Create </div>
-        </Link>
-        
-        <div className={style.headerIcon}>
+     <div className={style.headerIcon}>
           <CgProfile />
         </div>
         <div className={style.headerIcon}>
-        <Link href="/PayPremium">
+        <Link href="/Cart">
         <MdOutlineAccountBalanceWallet />
         </Link>
 

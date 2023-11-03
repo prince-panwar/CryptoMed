@@ -2,7 +2,7 @@ import React from 'react'
 
 const style = {
   wrapper: `relative`,
-  container: `before:content-[''] before:bg-red-500 before:absolute before:top-0 before:left-0 before:right-0 before:bottom-0 before:bg-[url('https://lh3.googleusercontent.com/ujepnqpnL0nDQIHsWxlCXzyw4pf01yjz1Jmb4kAQHumJAPrSEj0-e3ABMZlZ1HEpJoqwOcY_kgnuJGzfXbd2Tijri66GXUtfN2MXQA=s250')] before:bg-cover before:bg-center before:opacity-30 before:blur`,
+  container: `before:content-[''] before:bg-red-500 before:absolute before:top-0 before:left-0 before:right-0 before:bottom-0 before:bg-[url('https://www.talkspace.com/blog/wp-content/uploads/2017/10/meds-forever-pills-feature_1320W_JR-2.png')] before:bg-cover before:bg-center before:opacity-30 before:blur`,
   contentWrapper: `flex h-screen relative justify-center flex-wrap items-center`,
   copyContainer: `w-1/2`,
   title: `relative text-white text-[46px] font-semibold`,
@@ -10,7 +10,7 @@ const style = {
   ctaContainer: `flex`,
   accentedButton: ` relative text-lg font-semibold px-12 py-4 bg-[#2181e2] rounded-lg mr-5 text-white hover:bg-[#42a0ff] cursor-pointer`,
   button: ` relative text-lg font-semibold px-12 py-4 bg-[#363840] rounded-lg mr-5 text-[#e4e8ea] hover:bg-[#4c505c] cursor-pointer`,
-  cardContainer: `rounded-[3rem]`,
+  cardContainer: `rounded-[3rem] w-[400px] h-[500px] bg-[#313338] relative`,
   infoContainer: `h-20 bg-[#313338] p-4 rounded-b-lg flex items-center text-white`,
   author: `flex flex-col justify-center ml-4`,
   name: ``,
@@ -25,20 +25,20 @@ const Hero = () => {
         <div className={style.contentWrapper}>
           <div className={style.copyContainer}>
             <div className={style.title}>
-              Discover, collect, and sell extraordinary NFTs
+             Buys Medicines
             </div>
             <div className={style.description}>
-              OpenSea is the world&apos;s first and largest NFT marketplace
+              Using CryptoCurrency
             </div>
             <div className={style.ctaContainer}>
-              <button className={style.accentedButton}>Explore</button>
-              <button className={style.button}>Create</button>
+              <button className={style.accentedButton}>Buy</button>
+             
             </div>
           </div>
           <div className={style.cardContainer}>
             <img
               className="rounded-t-lg"
-              src="https://lh3.googleusercontent.com/ujepnqpnL0nDQIHsWxlCXzyw4pf01yjz1Jmb4kAQHumJAPrSEj0-e3ABMZlZ1HEpJoqwOcY_kgnuJGzfXbd2Tijri66GXUtfN2MXQA=s550"
+              src="https://i.seadn.io/s/raw/files/8fca8d04ad79d06a0a2424cabd6fb7e4.jpg?auto=format&dpr=1&w=1920"
               alt=""
             />
             <div className={style.infoContainer}>

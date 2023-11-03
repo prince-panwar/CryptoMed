@@ -108,7 +108,7 @@ export const ContractProvider: React.FC<ContractProviderProps> = ({ children }) 
       const contractInst = new ethers.Contract(contractAddress, abi, signer);
       setContractInstance(contractInst);
       getFactoryInstance();
-      routeUser(contractInst);
+      //routeUser(contractInst);
     } catch (err: any) {
       console.log(err.message);
     }
@@ -123,17 +123,16 @@ export const ContractProvider: React.FC<ContractProviderProps> = ({ children }) 
       console.error('Error while getting factory instance:', error);
     }
   };
-
-  const routeUser = async (contractInst: ethers.Contract) => {
-    try {
-      const isPremiumUser: boolean = await contractInst?.checkValidPremium();
-      if (!isPremiumUser) {
-        router.push('/PayPremium');
-      }
-    } catch (error) {
-      console.error('Error while routing:', error);
-    }
-  };
+  // const routeUser = async (contractInst: ethers.Contract) => {
+  //   try {
+  //     const isPremiumUser: boolean = await contractInst?.checkValidPremium();
+  //     if (!isPremiumUser) {
+  //       router.push('/PayPremium');
+  //     }
+  //   } catch (error) {
+  //     console.error('Error while routing:', error);
+  //   }
+  // };
 
   return (
     <ContractContext.Provider value={{ currentUser, contractInstance,factoryContractInstance ,UserName, connectWallet }}>
